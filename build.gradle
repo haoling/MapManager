@@ -1,4 +1,5 @@
 apply plugin: 'java'
+apply plugin: 'maven'
 
 sourceCompatibility = 1.7
 
@@ -43,8 +44,8 @@ dependencies {
     compile "org.spigotmc:spigot-api:1.11.2-R0.1-SNAPSHOT"
     compile "org.bukkit:craftbukkit:1.11.2-R0.1-SNAPSHOT"
     compile "org.mcstats.bukkit:metrics-lite:R8-SNAPSHOT"
-    compile "org.inventivetalent.packetlistener:api:3.5.0"
-    compile "org.inventivetalent:reflectionhelper:1.7.1"
+    compile "org.inventivetalent.packetlistener:api:+"
+    compile "org.inventivetalent:reflectionhelper:+"
 }
 
 shadowJar {
